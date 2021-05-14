@@ -14,7 +14,7 @@
     border: none;
     color: white;
     font-size:1.3rem;
-    padding: 0.5% 1.5%;
+    padding: 0.5% 0.5% 0.5% 0;
 }
 
 .topBar button:first-child{
@@ -31,4 +31,9 @@
     color: black !important;
     border-top-left-radius: 1.2rem;
     border-top-right-radius: 1.2rem;
+}
+
+.topBar button i{
+    padding-left: 10px;
+    padding-right: 10px;
 }
