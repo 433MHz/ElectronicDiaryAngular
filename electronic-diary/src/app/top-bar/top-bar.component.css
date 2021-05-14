@@ -1,0 +1,51 @@
+.topBar{
+    background-color: #3E403C;
+    width: 100vw;
+    height: 9.5vh;
+    border-top: 0.5vh solid #8A0843;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+}
+
+.topBar h2{
+    margin-left: 3vw;
+}
+
+.topBar h2:hover{
+    cursor: pointer;
+}
+
+.topBar ul{
+    margin-right: 3vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 25%;
+    height: 100%;
+    font-size: 1.3rem;
+
+    list-style: none;
+}
+
+.topBar ul li{
+    width: 30%;
+    height: 50%;
+    background-color: #646662;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 3rem;
+}
+
+.topBar ul li:hover{
+    background-color: #6466627c;  
+    cursor: pointer;
+}
